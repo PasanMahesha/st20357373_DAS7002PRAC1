@@ -2,10 +2,10 @@
 Big Data Technologies (DAS-7002) - Practical Project – PRAC 1
 ---
 # What this project does
-1. Task 1 — ETL: Schema-enforced ingestion, data-quality cleaning, and a Year/District partitioning strategy over Parquet.
-2. Task 2 — EDA: Rolling crime-rate averages (Spark Window functions), a broadcast join against socio-economic data, and a weather correlation analysis using daily NOAA station records.
-3. Task 3 — Clustering: K-Means spatial-temporal clustering (latitude, longitude, cyclically-encoded time-of-day) with Elbow Method and Silhouette Coefficient model selection.
-4. Task 4 — Prediction: A Random Forest classifier predicting arrest likelihood, with full evaluation (confusion matrix, precision/recall/F1, ROC-AUC) and a reflection on class-imbalance (data skew) effects.
+1. Task 1 - ETL: Schema-enforced ingestion, data-quality cleaning, and a Year/District partitioning strategy over Parquet.
+2. Task 2 - EDA: Rolling crime-rate averages (Spark Window functions), a broadcast join against socio-economic data, and a weather correlation analysis using daily NOAA station records.
+3. Task 3 - Clustering: K-Means spatial-temporal clustering (latitude, longitude, cyclically-encoded time-of-day) with Elbow Method and Silhouette Coefficient model selection.
+4. Task 4 - Prediction: A Random Forest classifier predicting arrest likelihood, with full evaluation (confusion matrix, precision/recall/F1, ROC-AUC) and a reflection on class-imbalance (data skew) effects.
 ---
 # Prerequisites
 * Windows 10/11	
@@ -15,8 +15,8 @@ Big Data Technologies (DAS-7002) - Practical Project – PRAC 1
 ---
 # Datasets required (not included in this repo due to size)
 - `Crimes_-_2001_to_Present.csv`	- https://www.kaggle.com/datasets/utkarshx27/crimes-2001-to-present 
-- `socioeconomic_indicators.csv`	- https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2/about_data
-- `USW00014819.csv`	NOAA GHCN-Daily - https://www.ncei.noaa.gov/
+- `socioeconomic_indicators.csv`	- https://www.kaggle.com/datasets/umermjd11/socioeconomic-indicators-in-chicago-2008-2012
+- `USW00014819.csv`	NOAA GHCN-Daily - [https://www.ncei.noaa.gov/](https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00014819.csv)
  <br>
  <b/>Place all three files in `data/raw/` before running (see project structure below).</b>
  <br>
@@ -40,7 +40,7 @@ If Jupyter still can't find it afterwards, run this from inside a notebook cell 
    ```
 3. Download `winutils.exe` and `hadoop.dll`
 From kontext-tech/winutils
-(`hadoop-3.3.5/bin/` folder), download both files.
+(`hadoop-3.2.0/bin/` folder), download both files.
 4. Place the files:
 - Create `C:\hadoop\bin\` and put both files there.
 - Also copy `hadoop.dll` into `C:\Windows\System32\` (requires admin permission).
