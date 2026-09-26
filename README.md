@@ -17,7 +17,10 @@ Big Data Technologies (DAS-7002) - Practical Project – PRAC 1
 - `Crimes_-_2001_to_Present.csv`	- https://www.kaggle.com/datasets/utkarshx27/crimes-2001-to-present 
 - `socioeconomic_indicators.csv`	- https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2/about_data
 - `USW00014819.csv`	NOAA GHCN-Daily - https://www.ncei.noaa.gov/
- <br>Place all three files in `data/raw/` before running (see project structure below).
+ <br>
+ <b/>Place all three files in `data/raw/` before running (see project structure below).</b>
+ <br>
+ 
 ---
 # Windows setup
 Spark's file-system layer depends on a small Hadoop utility that isn't included
