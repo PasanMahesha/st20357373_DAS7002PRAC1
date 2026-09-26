@@ -1,10 +1,5 @@
 # st20357373_DAS7002PRAC1
 Big Data Technologies (DAS-7002) - Practical Project – PRAC 1
-
-Chicago Crime Distributed Analytics Pipeline
-A PySpark-based big data pipeline for ETL, exploratory analysis, spatial-temporal
-clustering, and predictive modelling on the City of Chicago crime dataset.
-Built for the DAS7002 Big Data Technologies practical assignment.
 ---
 # What this project does
 1. Task 1 — ETL: Schema-enforced ingestion, data-quality cleaning, and a Year/District partitioning strategy over Parquet.
